@@ -2,7 +2,7 @@
 
 namespace Fina.Common.Responses
 {
-    public abstract class PagedResponse<T> : Response<T>
+    public class PagedResponse<T> : Response<T>
     {
         [JsonConstructor]
         public PagedResponse(T? data,
